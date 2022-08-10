@@ -12,11 +12,11 @@ there were only middle-aged and old female samples for smoking, so I controlled 
 the same demographic. However, since there were only two control samples that met these criteria, I sourced additional data
 from a Nature paper (Koenig et al., 2022) examining cell-type-diversification in the human heart. Using the Seurat and DESeq2
 packages in R, I generated a list of differentially expressed genes (DEGs) in the smoking population and found a significant
-difference in the distribution of cell types between the smoking and control samples. A concern I had while running the differential
+difference in the distribution of cell types between the smoking and control samples.<br></br>A concern I had while running the differential
 expression analyses was that differences in gene expression could be due to variations in preparation between the Nature and Choudhury
 samples rather than genuine biological factors. This was supported by the fact that the samples were separated by source
 (Choudhury lab vs. from the Nature paper) rather than age or smoking status on the PCA plot. Because of this, I re-ran the analysis using
-solely the data from my lab. I then compiled a list of DEGs found in the Choudhury-only analysis and the combined analysis. This list
+solely the data from my lab. I then compiled a list of DEGs found in the Choudhury-only analysis and the combined analysis.<br></br>This list
 was composed of just two genes: RGCC, a cell-cycle regulator that was down-regulated in smoking samples, and FABP4, a fatty-acid binding
 protein which was up-regulated in smoking samples. Previous studies have suggested that down-regulation of RGCC could play a role in the
 pathogenesis of non-small-cell lung cancer (Kim et al., 2011) while elevated levels of FABP4 have been linked to cardiovascular disease
