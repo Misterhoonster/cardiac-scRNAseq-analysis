@@ -1,12 +1,12 @@
-# Cardiac scRNA Analysis
+# 🫀 Cardiac scRNA Analysis
 A collection of the scRNA sequencing analyses I ran for the Choudhury lab in summer 2022.
 
-## Research goals
+## 🔬 Research goals
 The broader goal of my research was to uncover novel relationships between factors such as heart disease, aging, and smoking
 on gene and transposable element (TE) expression in the human heart. While my initial goal was to focus on aging, my research
 expanded to examine the effects of smoking and ploidy on gene expression.
 
-## Smoking analysis
+## 🚬 Smoking analysis
 My first project examined the link between smoking and gene expression in the heart. Of the samples collected by the lab,
 there were only middle-aged and old female samples for smoking, so I controlled for this by drawing control samples from
 the same demographic. However, since there were only two control samples that met these criteria, I sourced additional data
@@ -23,14 +23,16 @@ pathogenesis of non-small-cell lung cancer (Kim et al., 2011) while elevated lev
 and death (Furuhashi et al., 2015; Saito et al., 2021).
 <br></br>
 
-![rgcc-fabp4-violin](https://raw.githubusercontent.com/Misterhoonster/cardiac-scRNAseq-analysis/main/images/smoking/rgcc_fabp4_vln_smoking_cum.png)
+<img src="https://raw.githubusercontent.com/Misterhoonster/cardiac-scRNAseq-analysis/main/images/smoking/rgcc_fabp4_vln_smoking_cum.png" width="400px"></img>
+<br />
 *RGCC and FABP4 were markers found to be differentially expressed in smoking individuals*
 <br></br>
 
-![rgcc-fabp4-feature](https://github.com/Misterhoonster/cardiac-scRNAseq-analysis/blob/main/images/smoking/rgcc_fabp4_feature.png?raw=true)
+<img src="https://github.com/Misterhoonster/cardiac-scRNAseq-analysis/blob/main/images/smoking/rgcc_fabp4_feature.png?raw=true" width="400px"></img>
+<br />
 *Expression patterns of RGCC and FABP4*
 
-## Ploidy analysis
+## 🧫 Ploidy analysis
 My second project explored the relationship between ploidy (diploid v. hexaploid) and gene expression with the goal of finding potential
 fusion markers for cardiomyocytes. Out of our samples, there was only one individual that we had collected diploid and hexaploid samples from,
 so I began by running differential expression analysis on that data. Next, I pooled together all the diploid and hexaploid samples
@@ -40,29 +42,34 @@ found in both the single individual and pooled runs. As a result of this analysi
 my lab as possible candidate markers.
 <br></br>
 
-![2n-enriched-pathways](https://github.com/Misterhoonster/cardiac-scRNAseq-analysis/blob/main/images/ploidy/2n_all_enriched_pathways.png?raw=true)
+<img src="https://github.com/Misterhoonster/cardiac-scRNAseq-analysis/blob/main/images/ploidy/2n_all_enriched_pathways.png?raw=true" width="400px"></img>
+<br />
 *Pathways enriched in diploid (2n) cells*
 <br></br>
 
-![6n-enriched-pathways](https://github.com/Misterhoonster/cardiac-scRNAseq-analysis/blob/main/images/ploidy/6n_all_enriched_pathways.png?raw=true)
+<img src="https://github.com/Misterhoonster/cardiac-scRNAseq-analysis/blob/main/images/ploidy/6n_all_enriched_pathways.png?raw=true" width="400px"></img>
+<br />
 *Pathways enriched in hexaploid (6n) cells*
 <br></br>
 
-## TE analysis
+## 🧬 TE analysis
 My last project examined the effects of smoking and aging on the expression of transposable elements (TEs). Through this analysis, I found that
 the distribution of TE types (LINE, SINE, DNA, Satellite…etc) does not appear to be significantly impacted by age or smoking. In addition, I
 compiled a list of DEGs that were up and down-regulated in smokers and up-regulated in each age group (young, middle, old).
 <br></br>
 
-![young-up](https://user-images.githubusercontent.com/11368469/183781035-0db6eec6-0add-43d9-a6f8-b240dc04a055.png)
+<img src="https://user-images.githubusercontent.com/11368469/183781035-0db6eec6-0add-43d9-a6f8-b240dc04a055.png" width="400px"></img>
+<br />
 *TEs up-regulated in young individuals*
 <br></br>
 
-![middle-up](https://user-images.githubusercontent.com/11368469/183781069-170cc46d-982d-4c99-9f0c-4ecbbe75446a.png)
+<img src="https://user-images.githubusercontent.com/11368469/183781069-170cc46d-982d-4c99-9f0c-4ecbbe75446a.png" width="400px"></img>
+<br />
 *TEs up-regulated in middle-aged individuals*
 <br></br>
 
-![old-up](https://user-images.githubusercontent.com/11368469/183781095-28435893-baf5-4830-b768-76420ed5c2df.png)
+<img src="https://user-images.githubusercontent.com/11368469/183781095-28435893-baf5-4830-b768-76420ed5c2df.png" width="400px"></img>
+<br />
 *TEs up-regulated in old individuals*
 <br></br>
 
