@@ -1,5 +1,9 @@
 # 🫀 Cardiac scRNA Analysis
-A collection of the scRNA sequencing analyses conducted for the Choudhury lab in summer 2022.
+A collection of scRNA sequencing analyses conducted for the Choudhury lab in summer 2022.
+
+## 📝 Publications
+High-quality nuclei isolation from postmortem human heart muscle tissues for single-cell studies
+[https://www.sciencedirect.com/science/article/pii/S002228282300055X](url)
 
 ## 🔬 Research goals
 The broader goal of my research was to uncover novel relationships between factors such as heart disease, aging, and smoking
