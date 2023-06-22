@@ -736,3 +736,17 @@ for (cell_type in levels(te)) {
   print(paste0("Plotting ", cell_type))
   aging_plot_pie(cell_type)
 }
+
+### repeat DE without ASCVD sample (604)
+te_no_ascvd <- subset(te, orig.ident != "604-heart-5prime")
+
+## find markers
+# smoking markers
+smoking_markers_no_ascvd <- FindMarkers(object = te_no_ascvd,
+                               features = sample_tes,
+                               ident.1 = "Smoking",
+                               ident.2 = "Control",
+                               group.by = "Condition")
+write.csv(smoking_markers_no_ascvd, file = "~/cardiac_seq_analysis/data/TE/smoking_te_markers_no_ascvd.csv")
+
+
