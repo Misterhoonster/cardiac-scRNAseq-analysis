@@ -1,5 +1,5 @@
 # 🫀 Cardiac scRNA Analysis
-A collection of the scRNA sequencing analyses I ran for the Choudhury lab in summer 2022.
+A collection of the scRNA sequencing analyses conducted for the Choudhury lab in summer 2022.
 
 ## 🔬 Research goals
 The broader goal of my research was to uncover novel relationships between factors such as heart disease, aging, and smoking
